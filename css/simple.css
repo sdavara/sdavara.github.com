@@ -28,7 +28,7 @@ p {
 }
 
 #menu a {  text-decoration: none; color:gray; }
-#menu ul li{ list-style-type: none; margin:5px; background-color:#faecbb;}
+#menu ul li{ list-style-type: none; margin:5px; background-color:#bcf;}
 #container > footer {
     text-align: center;
     font-style: italic;
