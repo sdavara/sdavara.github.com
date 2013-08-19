@@ -51,6 +51,12 @@ p {
     line-height: 0.75em;
     text-align:left;
 }
+.site-title a {
+  font-family: Verdana;
+  text-decoration: none;
+  color: #bcf;
+}
+
 .post h2 { margin-bottom: 0.33em; }
 .date {
     font-style: italic;
