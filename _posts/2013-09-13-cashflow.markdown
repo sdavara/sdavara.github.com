@@ -4,11 +4,11 @@ date:   2013-09-12 18:46:12
 title:  "Cash Flow"
 status: publish
 categories: 
--Management
--Entrepreneurship
--Finance
+- Management
+- Entrepreneurship
+- Finance
 tags:
--Cashflow
+- Cashflow
 ---
 
 Cash flow is a very important factor to run organization successfully. After all we do business for the cash and it should be maintained every time. It occurs many times that when organizations have good cash flow, they just don’t think about the worst time and do not required expenses.
