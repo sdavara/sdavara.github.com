@@ -8,6 +8,7 @@ categories:
 - Personal Development
 tags:
 - Self help
+- The Secret
 - Personal Development
 ---
 
