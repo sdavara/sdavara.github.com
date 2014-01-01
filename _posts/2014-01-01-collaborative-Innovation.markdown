@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2014-01-01 19:43:12
-title:  "Collaborative People"
+title:  "Collaborative Innovation"
 status: publish
 categories: 
 - Self help
