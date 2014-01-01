@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2014-01-01 19:37:12
+date:   2014-01-01 19:43:12
 title:  "Collaborative People"
 status: publish
 categories: 
