@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2014-01-01 20:31:12
+date:   2014-01-02 20:31:12
 title:  "Resolution for the life"
 status: publish
 categories:
