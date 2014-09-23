@@ -23,8 +23,8 @@ Before, we move to our example, there are few things, we need to know about Lara
 
 
 Let's try an example of laravel eloquent model.
-<code>
 
+<pre>
     <?php
 
         class User extends Eloquent
@@ -59,7 +59,7 @@ Let's try an example of laravel eloquent model.
                 // delete the user
                 return parent::forceDelete();
             }
-        }
-</code>
+    }
+</pre>
 
 Above code will help to delete parent and it's child data gracefully.
