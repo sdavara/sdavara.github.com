@@ -23,7 +23,6 @@ Before, we move to our example, there are few things, we need to know about Lara
 
 
 Let's try an example of laravel eloquent model.
-
 <code>
 
     <?php
@@ -61,7 +60,6 @@ Let's try an example of laravel eloquent model.
                 return parent::forceDelete();
             }
         }
-
 </code>
 
 Above code will help to delete parent and it's child data gracefully.
