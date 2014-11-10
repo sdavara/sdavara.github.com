@@ -28,57 +28,57 @@ These methods can be hooked up with model event and we can take a certain action
 
         //In case of new object,
         //It's useful to track before a sucessful save in the database
-        static::creating(function($user){
+        static::creating(function($account){
             // write any code.
         });
 
         //In case of new object,
         //It's useful to track after a sucessful save in the database
-        static::created(function($user){
+        static::created(function($account){
             // write any code.
         });
 
         //In case of existing object,
         //It's useful to track before a sucessful save in the database
-        static::updating(function($user){
+        static::updating(function($account){
             // write any code.
         });
 
         //In case of existing object,
         //It's useful to track after a sucessful save in the database
-        static::updated(function($user){
+        static::updated(function($account){
             // write any code.
         });
 
         //It's useful to track before a sucessful save in the database
-        static::saving(function($user){
+        static::saving(function($account){
             // write any code.
         });
 
         //It's useful to track after a sucessful save in the database
-        static::saved(function($user){
+        static::saved(function($account){
             // write any code.
         });
 
         //It's useful to track before successful delete
-        static::deleting(function($user){
+        static::deleting(function($account){
             // write any code.
         });
 
         //It's useful to track after successful delete
-        static::deleted(function($user){
+        static::deleted(function($account){
             // write any code.
         });
 
         //Incase of soft delete, 
         //It's useful to track before successfully restored.
-        static::restoring(function($user){
+        static::restoring(function($account){
             // write any code.
         });
 
         //Incase of soft delete, 
         //It's useful to track after successfully restored.
-        static::restored(function($user){
+        static::restored(function($account){
             // write any code.
         });
     }
