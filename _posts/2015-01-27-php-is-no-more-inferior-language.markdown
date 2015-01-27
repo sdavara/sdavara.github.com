@@ -13,7 +13,7 @@ tags:
 
 I remember the time, when I was used to hate PHP and looking at PHP language as an inferior language. In addition, I have seen PHP developers feeling a great inferior quality in their life.
 
-I have not imagined anytime to work in php language, but with the touch of laravel(http://laravel.com), I became fan of the framework and ultimately PHP commmunity.
+I have not imagined anytime to work in php language, but with the touch of [laravel](http://laravel.com), I became fan of the framework and ultimately PHP commmunity.
 
 I could sense from the past and current experience that people could write bad and good code. That's the reason of deciding PHP as an inferior language. Earlier version of PHP might have bad practice and bad framework, but recent development in the community and language seems very promising.
 
