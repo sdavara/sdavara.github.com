@@ -31,20 +31,20 @@ I have listed below steps for updating your application folder.
     cd /etc/nginx/sites-available/
 </pre>
 
-* Step 3 : Edit your application
+**Step 3 : Edit your application**
 
 <pre>
     // you need to edit your application 
     vi homestead.app
 </pre>
 
-* Step 4 : Update your root location
+**Step 4 : Update your root location**
 
 You will see 'root' variable in your application configuration, you'll need to update it.
 
 Please note that, this location should be your VM location.
 
-* Step 5 : Important!! Restart nginx
+**Step 5 : Important!! Restart nginx**
 
 <pre>
     sudo /etc/init.d/nginx restart
