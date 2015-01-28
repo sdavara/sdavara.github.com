@@ -19,13 +19,13 @@ Finally, I found that I need to update nginx sites inside my Homestead box.
 
 I have listed below steps for updating your application folder.
 
-* Step 1 : Logon to homestead machine 
+**Step 1 : Logon to homestead machine**
 
 <pre>
     homestead ssh
 </pre>
 
-* Step 2 : Navigate to ngnix available sites location
+**Step 2 : Navigate to ngnix available sites location**
 
 <pre>
     cd /etc/nginx/sites-available/
