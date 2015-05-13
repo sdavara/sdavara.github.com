@@ -48,7 +48,7 @@ In some cases, it doesn't work for that you may need to turn off html5Mode, as b
 You have set your application to use '#!'. Now, it's time to update all your internal links of AngularJs application.
 
 <pre>
-	<a class="navbar-brand" href="#!/" />
+	href="#!/" 
 </pre>
 
 You can check, if the search engine is able to crawl your site or not. 
