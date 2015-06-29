@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2015-06-29 19:20:10
+date:   2015-06-29 19:0:10
 title:  "Use Existing homestead box into another machine"
 status: publish
 categories:
@@ -29,7 +29,8 @@ Let me walk you through the procedure of use existing box into another machine:
     vagrant package --output mynew.box
 </pre>
 
-**Step 3 : Copy this mynew.box to a new machine and import this as a laravel/homestead box, if you wish to manage your projects via homestead configuration. **
+**Step 3 : Copy this mynew.box to a new machine and import this as a laravel/homestead box**
+(If you wish to manage your projects via homestead configuration.)
 
 <pre>
     vagrant box add homestead/laravel mynew.box
