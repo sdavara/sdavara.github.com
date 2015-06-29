@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2015-06-23 13:40:10
+date:   2015-06-29 19:20:10
 title:  "Use Existing homestead box into another machine"
 status: publish
 categories:
