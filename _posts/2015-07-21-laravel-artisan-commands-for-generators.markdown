@@ -20,80 +20,80 @@ We can see all make command in the make section of the artisan command list:
   php artisan list
 </pre>
 
-** Generate a command class**
+**Generate a command class**
 <pre>
   php artisan make:command nameofcommand
 </pre>
 This command will generate new command file at app/Commands/nameofcommand.php
 
-** Generate a console command class**
+**Generate a console command class**
 <pre>
   php artisan make:console nameofclass
 </pre>
 This command will generate new console command file at app/Console/Commands/nameofclass.php
 
-** Generate a resource controller class**
+**Generate a resource controller class**
 <pre>
   php artisan make:controller mycontroller
 </pre>
 This command will generate new resource controller file at app/Http/Controllers/mycontroller.php
 
-** Generate an event class**
+**Generate an event class**
 <pre>
   php artisan make:event myevent
 </pre>
 This command will generate new event file at app/Events/myevent.php
 
-** Generate a job class**
+**Generate a job class**
 <pre>
   php artisan make:job myjob
 </pre>
 This command will generate new job file at app/Jobs/myjob.php
 
-** Generate an event listener class**
+**Generate an event listener class**
 <pre>
   php artisan make:listener mylistener
 </pre>
 This command will generate new event listener file at app/Listeners/mylistener.php
 
-** Generate a middleware class**
+**Generate a middleware class**
 <pre>
   php artisan make:middleware mymiddleware
 </pre>
 This command will generate new middleware file at app/Http/Middleware/mymiddleware.php
 
-** Generate a migration class**
+**Generate a migration class**
 <pre>
   php artisan make:migration newmigration
 </pre>
 This command will generate new migration file at database/migrations/timestamp_newmigration.php
 (timestamp will be actual timestamp :) )
 
-** Generate a model class**
+**Generate a model class**
 <pre>
   php artisan make:model mymodel
 </pre>
 This command will generate new model file at app/mymodel.php
 
-** Generate a model class**
+**Generate a model class**
 <pre>
   php artisan make:model mymodel
 </pre>
 This command will generate new model file at app/mymodel.php
 
-** Generate a provider class**
+**Generate a provider class**
 <pre>
   php artisan make:provider myprovider
 </pre>
 This command will generate new provider file at app/Providers/myprovider.php
 
-** Generate a request class**
+**Generate a request class**
 <pre>
   php artisan make:request myrequest
 </pre>
 This command will generate new request file at app/Http/Requests/myrequest.php
 
-** Generate a seeder class**
+**Generate a seeder class**
 <pre>
   php artisan make:seeder myseeder
 </pre>
