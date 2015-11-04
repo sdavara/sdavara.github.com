@@ -33,7 +33,7 @@ Let me walk you through the procedure of use existing box into another machine:
 (If you wish to manage your projects via homestead configuration.)
 
 <pre>
-    vagrant box add homestead/laravel mynew.box
+    vagrant box add laravel/homestead mynew.box
 </pre>
 
 Now, you don't need to download a homestead VM from a lower bandwidth server. You also don't need to modify your VM as per your need. You are ready to rock with existing box configuration.
