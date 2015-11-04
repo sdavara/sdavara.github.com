@@ -23,19 +23,19 @@ I see that data analysis can help in below fields significantly:
 ##### Healthcare
 Analyze past historical data of genes and find out the genes of illness.
 
-#### Machines
+##### Machines
 Analyze performance of machines and improve their efficiency.
 
-#### Weather
+##### Weather
 We collect lots of weather data and we can identify some pattern of unfavorable weather.
 
-#### Marketing and Sales
+##### Marketing and Sales
 Depends on user's choice, we only show relevant data to them. That's already being implemented and have chances of improvement.
 
-#### Business decision making
+##### Business decision making
 From the historical data, we can plot charts for business process and suggest ideas for improvement.
 
-#### Stock market
+##### Stock market
 Past data of stock help to create a technical chart and predict price at some level.
 
 There are numerous fields can take advantage of data analysis. The main goal of data analysis is to give certain useful information, so we can take further steps to avoid any damage or add efficiency to results.
