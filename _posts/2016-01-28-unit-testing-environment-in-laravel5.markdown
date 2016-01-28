@@ -21,8 +21,8 @@ From laravel 5, it introduces .env file. That is a plain text file with the key 
 Below is my 'phpunit.xml' file.
 
 <pre><code>
-<?xml version="1.0" encoding="UTF-8"?>
-<phpunit backupGlobals="false"
+
+&lt;phpunit backupGlobals="false"
          backupStaticAttributes="false"
          bootstrap="bootstrap/autoload.php"
          colors="true"
@@ -30,43 +30,43 @@ Below is my 'phpunit.xml' file.
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false">
+         stopOnFailure="false" &gt;
 
     // we can define as many testsuite as we want.
-    <testsuites>
-        <testsuite name="Application Test Suite">
-            <directory>./tests/</directory>
-        </testsuite>
-        <testsuite name="small">
-            <directory>./tests/small</directory>
-        </testsuite>
-        <testsuite name="medium">
-            <directory>./tests/medium</directory>
-        </testsuite>
-        <testsuite name="large">
-            <directory>./tests/large</directory>
-        </testsuite>
-    </testsuites>
-    <filter>
-        <whitelist>
-            <directory suffix=".php">app/</directory>
-        </whitelist>
-    </filter>
+    &lt;testsuites&gt;
+        &lt;testsuite name="Application Test Suite"&gt;
+            &lt;directory&gt;./tests/&lt;/directory&gt;
+        &lt;/testsuite&gt;
+        &lt;testsuite name="small"&gt;
+            &lt;directory&gt;./tests/small&lt;/directory&gt;
+        &lt;/testsuite&gt;
+        &lt;testsuite name="medium"&gt;
+            &lt;directory&gt;./tests/medium&lt;/directory&gt;
+        &lt;/testsuite&gt;
+        &lt;testsuite name="large"&gt;
+            &lt;directory&gt;./tests/large&lt;/directory&gt;
+        &lt;/testsuite&gt;
+    &lt;/testsuites&gt;
+    &lt;filter&gt;
+        &lt;whitelist&gt;
+            &lt;directory suffix=".php"&gt;app/&lt;/directory&gt;
+        &lt;/whitelist&gt;
+    &lt;/filter&gt;
 
     // I'd like to log my test results to tap format.
-    <logging>
-      <log type="tap" target="results.tap"/>
-    </logging>
+    &lt;logging&gt;
+      &lt;log type="tap" target="results.tap"/&gt;
+    &lt;/logging&gt;
 
     // This is my testing environment variables.
-    <php>
-       <env name="APP_ENV" value="testing"/>
-       <env name="DB_DATABASE" value=":memory:"/>
-       <env name="DB_CONNECTION" value="sqlite"/>
-       <env name="DB_DEFAULT_CONNECTION" value="sqlite"/>
-    </php>
-</phpunit>
+    &lt;php&gt;
+       &lt;env name="APP_ENV" value="testing"/&gt;
+       &lt;env name="DB_DATABASE" value=":memory:"/&gt;
+       &lt;env name="DB_CONNECTION" value="sqlite"/&gt;
+       &lt;env name="DB_DEFAULT_CONNECTION" value="sqlite"/&gt;
+    &lt;/php&gt;
+&lt;/phpunit&gt;
 
 </code></pre>
 
-You may have noticed that I've listed few environment variables in <php> </php> section. The aplication will try to find all environment variables in this file, if they don't find, it will try to get from .env file of the application. For more configuration options, you can visit unit test [documents](https://phpunit.de/documentation.html).
+You may have noticed that I've listed few environment variables in 'php' section. The aplication will try to find all environment variables in this file, if they don't find, it will try to get from .env file of the application. For more configuration options, you can visit unit test [documents](https://phpunit.de/documentation.html).
