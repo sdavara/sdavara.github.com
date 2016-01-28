@@ -20,8 +20,7 @@ From laravel 5, it introduces .env file. That is a plain text file with the key 
 
 Below is my 'phpunit.xml' file.
 
-<pre>
-
+<pre><code>
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
@@ -68,7 +67,6 @@ Below is my 'phpunit.xml' file.
     </php>
 </phpunit>
 
-
-</pre>
+</code></pre>
 
 You may have noticed that I've listed few environment variables in <php> </php> section. The aplication will try to find all environment variables in this file, if they don't find, it will try to get from .env file of the application. For more configuration options, you can visit unit test [documents](https://phpunit.de/documentation.html).
