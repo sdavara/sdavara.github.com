@@ -17,7 +17,7 @@ One of the feature, we need is to have any way to hookup with model events.(i.e 
 
 These methods can be hooked up with model event and we can take a certain action. Below code will show, how to implement it. I've done that with help of boot method of the model.
 
-<pre>
+{% highlight php %}
     class Account extends Eloquent {
 
     public static function boot()
@@ -70,13 +70,13 @@ These methods can be hooked up with model event and we can take a certain action
             // write any code.
         });
 
-        //Incase of soft delete, 
+        //Incase of soft delete,
         //It's useful to track before successfully restored.
         static::restoring(function($account){
             // write any code.
         });
 
-        //Incase of soft delete, 
+        //Incase of soft delete,
         //It's useful to track after successfully restored.
         static::restored(function($account){
             // write any code.
@@ -84,4 +84,4 @@ These methods can be hooked up with model event and we can take a certain action
     }
 
 }
-</pre>
+{% endhighlight %}

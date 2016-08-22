@@ -19,22 +19,22 @@ Let me walk you through the procedure of use existing box into another machine:
 
 **Step 1 : Go to the Homestead folder (usually, that's located in to home folder)**
 
-<pre>
+{% highlight bash %}
     cd ~/Homestead
-</pre>
+{% endhighlight %}
 
 **Step 2 : Prepare your package, a new box**
 
-<pre>
+{% highlight javascript %}
     vagrant package --output mynew.box
-</pre>
+{% endhighlight %}
 
 **Step 3 : Copy this mynew.box to a new machine and import this as a laravel/homestead box**
 (If you wish to manage your projects via homestead configuration.)
 
-<pre>
+{% highlight javascript %}
     vagrant box add laravel/homestead mynew.box
-</pre>
+{% endhighlight %}
 
 Now, you don't need to download a homestead VM from a lower bandwidth server. You also don't need to modify your VM as per your need. You are ready to rock with existing box configuration.
 

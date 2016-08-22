@@ -21,34 +21,34 @@ Below are steps to configure your AngularJs application
 
 **Step 1 : Add $locationProvider and prefix**
 
-<pre>
-	angular.module('myApp').config([  
+{% highlight javascript %}
+	angular.module('myApp').config([
 	    '$locationProvider',
 	    function($locationProvider) {
 	        $locationProvider.hashPrefix('!');
 	    }
 	]);
-</pre>
+{% endhighlight %}
 
 You will see your default route is changed to, http://yourdomain/#!/
 
 In some cases, it doesn't work for that you may need to turn off html5Mode, as below:
 
-<pre>
-	angular.module('myApp').config([  
+{% highlight javascript %}
+	angular.module('myApp').config([
 	    '$locationProvider',
 	    function($locationProvider) {
 	        $locationProvider.html5Mode(false).hashPrefix('!');
 	    }
 	]);
-</pre>
+{% endhighlight %}
 
 **Step 2 : Update AngularJs link url**
 
 You have set your application to use '#!'. Now, it's time to update all your internal links of AngularJs application.
 
-<pre>
-	href="#!/" 
-</pre>
+{% highlight html %}
+	href="#!/"
+{% endhighlight %}
 
-You can check, if the search engine is able to crawl your site or not. 
+You can check, if the search engine is able to crawl your site or not.

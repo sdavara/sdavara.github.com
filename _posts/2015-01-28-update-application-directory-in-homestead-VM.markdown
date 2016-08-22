@@ -11,32 +11,34 @@ tags:
 - Programming
 ---
 
-Laravel provides a great vagrant package "Homestead". Its a great tool for running application locally across the different machines without worrying about software requirement. 
+Laravel provides a great vagrant package "Homestead". Its a great tool for running application locally across the different machines without worrying about software requirement.
 
 But recently, I came across a problem of updating my application directory in a default configuration and my site stopped to work. I know that could have been solved with the help of 'vagrant --provision', but I'd like to explore other options.
 
-Finally, I found that I need to update nginx sites inside my Homestead box. 
+Finally, I found that I need to update nginx sites inside my Homestead box.
 
 I have listed below steps for updating your application folder.
 
 **Step 1 : Logon to homestead machine**
 
-<pre>
+{% highlight bash %}
     homestead ssh
-</pre>
+{% endhighlight %}
 
 **Step 2 : Navigate to ngnix available sites location**
 
-<pre>
+{% highlight bash %}
     cd /etc/nginx/sites-available/
-</pre>
+{% endhighlight %}
+
 
 **Step 3 : Edit your application**
 
-<pre>
-    // you need to edit your application 
+{% highlight bash %}
+    // you need to edit your application
     vi homestead.app
-</pre>
+{% endhighlight %}
+
 
 **Step 4 : Update your root location**
 
@@ -46,8 +48,8 @@ Please note that, this location should be your VM location.
 
 **Step 5 : Important!! Restart nginx**
 
-<pre>
+{% highlight bash %}
     sudo /etc/init.d/nginx restart
-</pre>
+{% endhighlight %}
 
 I hope you enjoyed this.

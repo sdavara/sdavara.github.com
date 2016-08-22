@@ -24,7 +24,7 @@ Before, we move to our example, there are few things, we need to know about Lara
 
 Let's try an example of laravel eloquent model.
 
-<pre>
+{% highlight php %}
     <?php
 
         class User extends Eloquent
@@ -42,24 +42,24 @@ Let's try an example of laravel eloquent model.
             // invoke when we call $user->delete(), softdelete.
             public function delete()
             {
-                // delete all associated photos 
+                // delete all associated photos
                 $this->photos()->delete();
-                
+
                 // delete the user
                 return parent::delete();
             }
 
             // override existing forceDelete method.
-            // invoke when we call $user->forceDelete(), force delete 
+            // invoke when we call $user->forceDelete(), force delete
             public function forceDelete()
             {
-                // use of withTrashed() to delete all records 
+                // use of withTrashed() to delete all records
                 $this->photos()->withTrashed()->forceDelete();
-                
+
                 // delete the user
                 return parent::forceDelete();
             }
     }
-</pre>
+{% endhighlight %}
 
 Above code will help to delete parent and it's child data gracefully.

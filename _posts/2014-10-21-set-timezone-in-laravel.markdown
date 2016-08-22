@@ -20,7 +20,7 @@ Laravel allows to set timezone in an application via configuration. I have been 
 We can set timezone in config file app/config/app.php or any app/config/environment/app.php at below section.
 
 
-<pre>
+{% highlight php %}
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -29,13 +29,13 @@ We can set timezone in config file app/config/app.php or any app/config/environm
     | Here you may specify the default timezone for your application, which
     | will be used by the PHP date and date-time functions. We have gone
     | ahead and set this to a sensible default for you out of the box.
-    | 
+    |
     */
 
     // Default value of timezone is 'UTC', I have changed it to 'Asia/Kolkata'
-    
+
     'timezone'  => 'Asia/Kolkata',
-</pre>
+{% endhighlight %}
 
 
 Enjoy!!

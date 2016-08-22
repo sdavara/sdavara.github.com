@@ -3,7 +3,7 @@ layout: post
 date:   2013-09-13 17:46:12
 title:  "Cash Flow"
 status: publish
-categories: 
+categories:
 - Management
 - Entrepreneurship
 - Finance
@@ -17,9 +17,9 @@ Every time is not same for everyone. Always there is a rise and decreases in dem
 
 Whenever you have a good cash flow, just shelf some of them for the future and don\’t put all cash in the plans. Once cash struck in the project, even time come when you don’t have enough cash for the day to day activity, like your rent, interest to pay etc. All of your administrative work affects due to this cash flow crisis.
 
-To prevent an organization from such cash flow crisis we should consider following points.
+#### To prevent an organization from such cash flow crisis, we should consider following points.
 * Do not rely on any one customer or client.
-* Do not put all cash in one project. 
+* Do not put all cash in one project.
 * Do some backup plan particular in cash flow.
 
 There are so many examples of organization, which were collapsed due to cash flow, though they had very good work, good project, good employee, and good management.
