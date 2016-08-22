@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact Shailesh Davara
 ---
 
 <div id="contact">
