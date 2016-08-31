@@ -19,12 +19,12 @@ sake of our technology upgrade desires.
 
 I've listed a few points to consider before upgrading application framework:
 
-**Does my existing version have any critical issue which has been fixed in the newer version?**
-**What is the learning curves involved in upgrade to a newer version?**
-**What are the chances of new feature development in the current application?**
-**How do you see your development team adapt with newer version of the framework?**
-**Can a newer version upgrade existing application without breaking changes?**
-**How much cost effective of migrating to newer version considering future supports?**
+* Does my existing version have any critical issue which has been fixed in the newer version?
+* What is the learning curves involved in upgrade to a newer version?
+* What are the chances of new feature development in the current application?
+* How do you see your development team adapt with newer version of the framework?
+* Can a newer version upgrade existing application without breaking changes?
+* How much cost effective of migrating to newer version considering future supports?
 
 The list can be a lengthy one. Technical people may think to upgrade to a newer version as a benefit, but it could be
 costlier for the business. When there are less chances of future changes and system running smoothly, it's not advisable to
