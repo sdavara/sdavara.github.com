@@ -16,7 +16,7 @@ navigation:
  - title: Home
    url: /index.html
  - title: Archives
-   url: /archive
+   url: /archive/
  - title: About
    url: /about
  - title: Contact
