@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2016-11-08 11:15:00
+date:   2016-11-08 11:15:10
 title:  "Don't go for the single page framework in public facing web application"
 status: publish
 categories:
