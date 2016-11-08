@@ -15,7 +15,7 @@ paginate: 5
 navigation:
  - title: Home
    url: /index.html
- - archive: archive
+ - archive: Archives
    url: /archive
  - title: About
    url: /about
