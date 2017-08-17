@@ -15,7 +15,7 @@ Now a days, I'm working with PHP and particularly with Laravel framework. I have
 
 Though I am learning, I'd love to share what I learn. PHP Laravel is getting attention from the community due to it's easy to set up and powerful features. In earlier, it was quite a tedious process to change time zone in an application by passing an argument in datetime constructor or need to set in php.ini.
 
-Laravel allows to set timezone in an application via configuration. I have been using the framework, but I have not come across any need of timezone yet. After looking at it, just one word 'awesome'.
+Laravel allows to set timezone in an application via a configuration file. I have been using the framework, but I have not come across any need of timezone yet. It's an easy way to change timezone for our application.
 
 We can set timezone in config file app/config/app.php or any app/config/environment/app.php at below section.
 
@@ -37,5 +37,4 @@ We can set timezone in config file app/config/app.php or any app/config/environm
     'timezone'  => 'Asia/Kolkata',
 {% endhighlight %}
 
-
-Enjoy!!
+Please try to explore other sections of this configuration file. You will enjoy it a lot.
