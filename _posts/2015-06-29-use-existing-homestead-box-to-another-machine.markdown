@@ -39,3 +39,5 @@ Let me walk you through the procedure of use existing box into another machine:
 Now, you don't need to download a homestead VM from a lower bandwidth server. You also don't need to modify your VM as per your need. You are ready to rock with existing box configuration.
 
 Happy virtualization :)
+
+Update: If you are using osx, I'd suggest to use Valet. For that I've written a [post](http://www.sdavara.com/PHP-Valet-another-nice-tool-by-laravel/)
