@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2014-09-23 11:15:12
-title:  "Delete Eloquent model and related child data"
+title:  "How to delete Eloquent model with related relationship/child data"
 status: publish
 categories:
 - Laravel
@@ -10,8 +10,6 @@ tags:
 - Laravel
 - Programming
 ---
-
-Recently, I've been working with PHP framework Laravel. In most of my projects, I use it and enjoy a lot in working with that.
 
 Eloquent, ORM of laravel is very powerful and we can use it for building model relationship. It handles most of CRUD operation with ease, even with relationship. Today, I'm going to discuss DELETE operation with relationship. How to delete related records when we delete any parent record? It's quite possible that we may have orphan records, if we don't delete child records, when deleting a parent record. To prevent, this situation, we can write code accordingly.
 
