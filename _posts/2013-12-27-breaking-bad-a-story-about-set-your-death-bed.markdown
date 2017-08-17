@@ -1,9 +1,9 @@
 ---
 layout: post
 date:   2013-12-27 12:09:12
-title:  "Where do you want to set your death bed?"
+title:  "Breking bad, a story about setting out death bed?"
 status: publish
-categories: 
+categories:
 - Self help
 - Personal Development
 - Article
@@ -21,8 +21,8 @@ It has been said and advised many times by doctors and life lesson that people a
 
 We all have a special love for the work. If we are inclined with particular, there would be no doubt of success and happiness. Prosperity, happiness, success are a few fuel for making life livable and more enjoyable. It is a matter of fact that all the time we have burning desire of creating milestone in the area we are interested. These are the areas, where one doesn't get bored and always cheer up themselves and surrounded atmosphere.
 
-That area of your interest can create an inevitable success for you. When such a place is found, there is no worry for leaving breath harmony. This could be the best place for an exit. 
+That area of your interest can create an inevitable success for you. When such a place is found, there is no worry for leaving breath harmony. This could be the best place for an exit.
 
-I hope you get what I tried to say here, It's the best place in death bed, where we have a special love.
+I hope that you get what I tried to say here, It's the best place in death bed, where we have a special love.
 
 So, where do you want to set your death bed?
