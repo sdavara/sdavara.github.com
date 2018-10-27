@@ -5,9 +5,11 @@ title:  "Laravel artisan commands for Generators"
 status: publish
 categories:
 - Laravel
+- PHP
 - Programming
 tags:
 - Laravel
+- PHP
 - Programming
 ---
 

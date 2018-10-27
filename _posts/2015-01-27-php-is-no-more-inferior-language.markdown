@@ -5,9 +5,11 @@ title:  "PHP is no more inferior language"
 status: publish
 categories:
 - Article
+- PHP
 - Programming
 tags:
 - Article
+- PHP
 - Programming
 ---
 

@@ -6,9 +6,13 @@ status: publish
 categories:
 - Article
 - Programming
+- Laravel
+- PHP
 tags:
 - Article
 - Programming
+- Laravel
+- PHP
 ---
 
 Laravel eloquent ORM has come a long way since it's been added in laravel. Today, I'm going to discuss a topic around laravel Eloquent ORM, that is "Global Scopes". Anyone working with laravel must be aware about "scope" keyword in laravel model. It extends query in our model. With the introduction of "Global Scopes", we can attach scope at model level with all the queries executed. That is very similar to that of deleted records, by default we don't get any soft deleted records from the model. We have to explicitly specify.

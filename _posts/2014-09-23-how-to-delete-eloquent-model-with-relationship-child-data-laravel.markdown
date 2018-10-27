@@ -5,9 +5,11 @@ title:  "How to delete Eloquent model with related relationship/child data"
 status: publish
 categories:
 - Laravel
+- PHP
 - Programming
 tags:
 - Laravel
+- PHP
 - Programming
 ---
 

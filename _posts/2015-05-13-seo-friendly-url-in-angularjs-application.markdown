@@ -5,9 +5,11 @@ title:  "SEO friendly URL in AngularJs application"
 status: publish
 categories:
 - AngularJs
+- JavaScript
 - Programming
 tags:
 - AngularJs
+- JavaScript
 - Programming
 ---
 

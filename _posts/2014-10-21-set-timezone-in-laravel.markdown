@@ -5,9 +5,11 @@ title:  "Set Timezone in Laravel"
 status: publish
 categories:
 - Laravel
+- PHP
 - Programming
 tags:
 - Laravel
+- PHP
 - Programming
 ---
 

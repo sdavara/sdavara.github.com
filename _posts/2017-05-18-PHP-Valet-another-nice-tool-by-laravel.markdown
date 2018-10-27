@@ -6,9 +6,13 @@ status: publish
 categories:
 - Article
 - Programming
+- Laravel
+- PHP
 tags:
 - Article
 - Programming
+- Laravel
+- PHP
 ---
 
 It is almost 4+ Years, I'm working with the Laravel PHP framework. When I first started, it was all about a new way of writing PHP applications. I was quite impressed with the structure and I have not looked back since then. It was laravel 4.x version of my first laravel PHP application.
