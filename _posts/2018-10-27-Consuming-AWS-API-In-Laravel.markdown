@@ -21,7 +21,7 @@ Thanks to the vibrant community of PHP and Laravel, we have a package for consum
 
 Package name : *[aws/aws-sdk-php-laravel](https://packagist.org/packages/aws/aws-sdk-php-laravel)* 
 
-Read me contains everything about how to setup in laravel applicaiton. You should also refer [aws/aws-sdk-php] (https://packagist.org/packages/aws/aws-sdk-php) package specifically built for consuming AWS API in php. *aws/aws-sdk-php-laravel* written on top of *aws/aws-sdk-php*, you can write your own package too.
+Read me contains everything about how to setup in laravel applicaiton. You should also refer [aws/aws-sdk-php](https://packagist.org/packages/aws/aws-sdk-php) package specifically built for consuming AWS API in php. *[aws/aws-sdk-php-laravel](https://packagist.org/packages/aws/aws-sdk-php-laravel)* written on top of *[aws/aws-sdk-php](https://packagist.org/packages/aws/aws-sdk-php)*, you can write your own package too.
 
 You will require the following details to get started, which can be created by system admin who is managing your AWS infrastructure.
 * AWS_SECRET_ACCESS_KEY 
