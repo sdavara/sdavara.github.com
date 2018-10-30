@@ -50,7 +50,7 @@ return [
 
 Now, we can process our custom JSON format SQS with below commanad:
 {% highlight php %}
-php artisan queue:work sns-plain --queue=https://sqs.us-west-2.amazonaws.com/userid/queuename"
+php artisan queue:work sqs-plain --queue=https://sqs.us-west-2.amazonaws.com/userid/queuename"
 {% endhighlight %}
 
 To handle normal laravel format JSON SQS, we can use below command:
